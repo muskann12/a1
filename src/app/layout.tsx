@@ -29,6 +29,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+        <div>
+          <h5 className="text-wrap text-2xl font-bold text-purple-950"> Muskan Nisar</h5>
+        </div>
       </body>
     </html>
   );
